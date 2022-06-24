@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 void setZeroes(vector<vector<int>> &a)
@@ -51,11 +50,13 @@ int main()
 {
     vector<vector<int>> ab = {{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}};
     setZeroes(ab);
-    for(int i=0;i<3;i++){
-        for(int j=0;j<4;j++){
-            cout<<ab[i][j]<<" ";
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            cout << ab[i][j] << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
     return 0;
 }
